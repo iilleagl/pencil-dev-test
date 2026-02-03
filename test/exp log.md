@@ -72,6 +72,8 @@ B端云服务控制台概览页（Dashboard）。整体风格采用现代简约�
 公告通知： 分类标签式（全部、活动、安全等）的列表，展示最新的系统升级或优惠信息。
 
 联系我们： 底部引导卡片，包含背景图和“申请试用”的 CTA（Call to Action）按钮。
+![D2D](image5.png)
+![targetImage](../image.png)
 
 ### experiment 1.2 D2C(React)生成
 
