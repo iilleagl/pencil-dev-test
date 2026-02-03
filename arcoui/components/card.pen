@@ -1,0 +1,2042 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "yZetC",
+      "x": 2.61774505674839,
+      "y": 87.03616577386833,
+      "name": "card",
+      "fill": "#e8f3ffff",
+      "cornerRadius": 5,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#7b61ffff"
+      },
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 16,
+      "children": [
+        {
+          "type": "frame",
+          "id": "n4UQ0",
+          "name": "简洁=false, 边框=true",
+          "reusable": true,
+          "clip": true,
+          "width": 360,
+          "fill": "#ffffffff",
+          "cornerRadius": 4,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#e5e6ebff"
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nkn2j",
+              "name": "header",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#e5e6ebff"
+              },
+              "gap": 10,
+              "padding": [
+                11,
+                16
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yBG0F",
+                  "name": "title",
+                  "clip": true,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 4,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2a7dp",
+                      "name": "text",
+                      "fill": "#1d2129ff",
+                      "content": "Arco Card",
+                      "lineHeight": 1.5,
+                      "textAlignVertical": "middle",
+                      "fontFamily": "PingFang SC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jq5Wt",
+                      "name": "icon-wrapper",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 16,
+                      "height": "fill_container",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UX9eT",
+                          "name": "interactive-button/settings",
+                          "clip": true,
+                          "width": 16,
+                          "height": 16,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "AYm93",
+                              "x": 1.3333333730697632,
+                              "y": 1.3333333730697632,
+                              "name": "Vector",
+                              "geometry": "M4 20c0-8.83656 7.16344-16 16-16 8.83656 0 16 7.16344 16 16 0 8.83656-7.16344 16-16 16-8.83656 0-16-7.16344-16-16z m16-20c-11.0457 0-20 8.9543-20 20 0 11.0457 8.9543 20 20 20 11.0457 0 20-8.9543 20-20 0-11.0457-8.9543-20-20-20z m-3.39998 15.9786l0-0.46117c0.00241-0.54871 0.19864-1.1574 0.63648-1.61501 0.40438-0.42264 1.19256-0.90242 2.75202-0.90242 1.46442 0 2.48276 0.69917 3.00208 1.49296 0.5546 0.84769 0.44532 1.55896 0.18211 1.91431-0.32827 0.44318-0.73586 0.85252-1.22846 1.29596-0.14986 0.1349-0.33457 0.29564-0.53263 0.46799l-0.00005 0.00003c-0.35416 0.30819-0.75098 0.65349-1.06739 0.95457-1.12349 1.06902-2.34381 2.56102-2.34381 4.87418l0.00651 1.01285 3.99991-0.0257-0.00637-0.99262c0.00148-0.68407 0.28189-1.19145 1.10108-1.97092 0.27537-0.26202 0.52289-0.47616 0.80612-0.72119l0.00011-0.0001c0.20948-0.18123 0.43848-0.37935 0.71273-0.62623 0.57037-0.51345 1.20506-1.12998 1.76651-1.88795 1.51621-2.04693 1.16164-4.63452-0.04909-6.48511-1.246-1.9045-3.51303-3.30303-6.34936-3.30303-2.45448 0-4.3574 0.7943-5.6422 2.13712-1.25062 1.3071-1.74175 2.95402-1.7463 4.37019l0 0.47129 4 0z m1.40682 11.0214l0 4.00777 4 0 0-4.00777-4 0z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 13.333333969116211,
+                              "height": 13.333333969116211,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kU3zh",
+                      "name": "text/text",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 108,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b7Y9G",
+                          "name": "text",
+                          "fill": "#ffffffff",
+                          "content": "This is a subtitle",
+                          "lineHeight": 1.5714285714285714,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Roboto",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qOUds",
+                  "name": "Link",
+                  "clip": true,
+                  "height": 24,
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 4,
+                  "padding": [
+                    1,
+                    4
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4TJdE",
+                      "name": "edit/link",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 12,
+                      "height": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "fsBYf",
+                          "x": 0.5199225544929504,
+                          "y": 8.651650428771973,
+                          "name": "Vector",
+                          "rotation": 45,
+                          "geometry": "M8 4c-2.20914 0-4 1.79086-4 4 0 2.20914 1.79086 4 4 4l12 0c2.20914 0 4-1.79086 4-4l4 0c0 4.41828-3.58172 8-8 8l-12 0c-4.41828 0-8-3.58172-8-8 0-4.41828 3.58172-8 8-8l7 0 0 4-7 0z m10 4c0-4.41828 3.58172-8 8-8l12 0c4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8l-7 0 0-4 7 0c2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4l-12 0c-2.20914 0-4 1.79086-4 4l-4 0z",
+                          "fillRule": "evenodd",
+                          "fill": "#ffffffff",
+                          "width": 11.5,
+                          "height": 4,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ILQ0O",
+                      "name": "Link",
+                      "fill": "#165dffff",
+                      "content": "More",
+                      "lineHeight": 1.5714285714285714,
+                      "fontFamily": "PingFang SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gtoYd",
+                      "name": "direction/down",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 12,
+                      "height": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "1cCHL",
+                          "x": 10.2535400390625,
+                          "y": 4.714454174041748,
+                          "name": "Vector",
+                          "rotation": -44.99999517032684,
+                          "flipX": true,
+                          "geometry": "M0 0l4 0 0 20 20 0 0 4-21.99982 0c0 0-0.00018 0-0.00018-2l0.00018 2-2.00018 0 0-24z",
+                          "fillRule": "evenodd",
+                          "fill": "#4e5969ff",
+                          "width": 5.999999523162842,
+                          "height": 5.999999523162842,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 4
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tipYG",
+              "name": "tabs/line",
+              "enabled": false,
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#e5e6ebff"
+              },
+              "gap": 32,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XVDf4",
+                  "name": "tabs group",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TY6LA",
+                      "name": "_components/tab",
+                      "clip": true,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 2
+                        },
+                        "fill": "#165dffff"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        9,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "3ShUK",
+                          "name": "interactive-button/settings",
+                          "enabled": false,
+                          "clip": true,
+                          "width": 14,
+                          "height": 14,
+                          "fill": {
+                            "type": "color",
+                            "color": "#ffffffff",
+                            "enabled": false
+                          },
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "EWRO5",
+                              "x": 1.212736964225769,
+                              "y": 1.1666666269302368,
+                              "name": "Vector",
+                              "geometry": "M12.71158 2.19707c0.36068-1.29846 1.54293-2.19707 2.89055-2.19707l8.47983 0c1.34762 0 2.52987 0.89861 2.89055 2.19707l1.02264 3.68149 3.69986-0.95519c1.30484-0.33687 2.67418 0.23768 3.34799 1.40476l4.23992 7.34375c0.67381 1.16708 0.48671 2.64024-0.45745 3.60183l-2.67686 2.72629 2.67687 2.72631c0.94416 0.96159 1.13125 2.43475 0.45744 3.60182l-4.23991 7.34375c-0.67381 1.16708-2.04315 1.74163-3.348 1.40476l-3.69986-0.95519-1.02264 3.68148c-0.36068 1.29846-1.54293 2.19707-2.89055 2.19707l-8.47983 0c-1.34763 0-2.52987-0.89861-2.89055-2.19707l-1.02258-3.68128-3.6991 0.95499c-1.30484 0.33687-2.67418-0.23768-3.348-1.40476l-4.23991-7.34375c-0.67381-1.16707-0.48672-2.64023 0.45744-3.60182l2.67687-2.72631-2.67687-2.7263c-0.94416-0.96159-1.13125-2.43475-0.45744-3.60182l4.23992-7.34375c0.67381-1.16708 2.04315-1.74163 3.34799-1.40476l3.6991 0.95499 1.02258-3.68129z m-1.28537 30.97853l0.00036 0.00132m4.93564-29.17692l-1.08194 3.89499c-0.43772 1.5758-2.05693 2.51065-3.64047 2.10182l-3.91384-1.01043-3.47982 6.02724 2.83225 2.88456c1.14582 1.16697 1.14582 3.03668 0 4.20365l-2.83226 2.88455 3.47983 6.02725 3.91385-1.01044c1.58355-0.40882 3.20275 0.52604 3.64047 2.10183l1.08193 3.89498 6.95966 0 1.082-3.89518c0.43772-1.5758 2.05694-2.51064 3.64047-2.10182l3.91461 1.01063 3.47982-6.02724-2.83225-2.88456c-1.14582-1.16698-1.14582-3.03668 0-4.20365l2.83225-2.88455-3.47982-6.02724-3.91461 1.01062c-1.58354 0.40882-3.20275-0.52603-3.64047-2.10182l-1.082-3.89519-6.95966 0z m3.47983 12c-2.20914 0-4 1.79086-3.99999 4 0 2.20914 1.79086 4 3.99999 4 2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4z m-8 4c0-4.41828 3.58172-8 8-8 4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8-4.41828 0-8-3.58172-8-8z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 11.5747652053833,
+                              "height": 11.666666030883789,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "AiYgy",
+                          "name": "text",
+                          "fill": "#165dffff",
+                          "content": "Tab 1",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e0UDd",
+                      "name": "_components/tab",
+                      "cornerRadius": 2,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 8,
+                      "padding": [
+                        9,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "onwo3",
+                          "name": "Hover",
+                          "fill": "#f2f3f500",
+                          "width": 53.99999237060547,
+                          "height": 24,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QSsiU",
+                          "name": "interactive-button/settings",
+                          "enabled": false,
+                          "clip": true,
+                          "width": 14,
+                          "height": 14,
+                          "fill": {
+                            "type": "color",
+                            "color": "#ffffffff",
+                            "enabled": false
+                          },
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "fH8bt",
+                              "x": 1.212736964225769,
+                              "y": 1.1666666269302368,
+                              "name": "Vector",
+                              "geometry": "M12.71158 2.19707c0.36068-1.29846 1.54293-2.19707 2.89055-2.19707l8.47983 0c1.34762 0 2.52987 0.89861 2.89055 2.19707l1.02264 3.68149 3.69986-0.95519c1.30484-0.33687 2.67418 0.23768 3.34799 1.40476l4.23992 7.34375c0.67381 1.16708 0.48671 2.64024-0.45745 3.60183l-2.67686 2.72629 2.67687 2.72631c0.94416 0.96159 1.13125 2.43475 0.45744 3.60182l-4.23991 7.34375c-0.67381 1.16708-2.04315 1.74163-3.348 1.40476l-3.69986-0.95519-1.02264 3.68148c-0.36068 1.29846-1.54293 2.19707-2.89055 2.19707l-8.47983 0c-1.34763 0-2.52987-0.89861-2.89055-2.19707l-1.02258-3.68128-3.6991 0.95499c-1.30484 0.33687-2.67418-0.23768-3.348-1.40476l-4.23991-7.34375c-0.67381-1.16707-0.48672-2.64023 0.45744-3.60182l2.67687-2.72631-2.67687-2.7263c-0.94416-0.96159-1.13125-2.43475-0.45744-3.60182l4.23992-7.34375c0.67381-1.16708 2.04315-1.74163 3.34799-1.40476l3.6991 0.95499 1.02258-3.68129z m-1.28537 30.97853l0.00036 0.00132m4.93564-29.17692l-1.08194 3.89499c-0.43772 1.5758-2.05693 2.51065-3.64047 2.10182l-3.91384-1.01043-3.47982 6.02724 2.83225 2.88456c1.14582 1.16697 1.14582 3.03668 0 4.20365l-2.83226 2.88455 3.47983 6.02725 3.91385-1.01044c1.58355-0.40882 3.20275 0.52604 3.64047 2.10183l1.08193 3.89498 6.95966 0 1.082-3.89518c0.43772-1.5758 2.05694-2.51064 3.64047-2.10182l3.91461 1.01063 3.47982-6.02724-2.83225-2.88456c-1.14582-1.16698-1.14582-3.03668 0-4.20365l2.83225-2.88455-3.47982-6.02724-3.91461 1.01062c-1.58354 0.40882-3.20275-0.52603-3.64047-2.10182l-1.082-3.89519-6.95966 0z m3.47983 12c-2.20914 0-4 1.79086-3.99999 4 0 2.20914 1.79086 4 3.99999 4 2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4z m-8 4c0-4.41828 3.58172-8 8-8 4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8-4.41828 0-8-3.58172-8-8z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 11.5747652053833,
+                              "height": 11.666666030883789,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "M5NZ2",
+                          "name": "text",
+                          "fill": "#4e5969ff",
+                          "content": "Tab 2",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P4jIC",
+                      "name": "_components/tab",
+                      "cornerRadius": 2,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 8,
+                      "padding": [
+                        9,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "tpRzv",
+                          "name": "Hover",
+                          "fill": "#f2f3f500",
+                          "width": 53.99999237060547,
+                          "height": 24,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FUXBX",
+                          "name": "interactive-button/settings",
+                          "enabled": false,
+                          "clip": true,
+                          "width": 14,
+                          "height": 14,
+                          "fill": {
+                            "type": "color",
+                            "color": "#ffffffff",
+                            "enabled": false
+                          },
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "jaXkb",
+                              "x": 1.212736964225769,
+                              "y": 1.1666666269302368,
+                              "name": "Vector",
+                              "geometry": "M12.71158 2.19707c0.36068-1.29846 1.54293-2.19707 2.89055-2.19707l8.47983 0c1.34762 0 2.52987 0.89861 2.89055 2.19707l1.02264 3.68149 3.69986-0.95519c1.30484-0.33687 2.67418 0.23768 3.34799 1.40476l4.23992 7.34375c0.67381 1.16708 0.48671 2.64024-0.45745 3.60183l-2.67686 2.72629 2.67687 2.72631c0.94416 0.96159 1.13125 2.43475 0.45744 3.60182l-4.23991 7.34375c-0.67381 1.16708-2.04315 1.74163-3.348 1.40476l-3.69986-0.95519-1.02264 3.68148c-0.36068 1.29846-1.54293 2.19707-2.89055 2.19707l-8.47983 0c-1.34763 0-2.52987-0.89861-2.89055-2.19707l-1.02258-3.68128-3.6991 0.95499c-1.30484 0.33687-2.67418-0.23768-3.348-1.40476l-4.23991-7.34375c-0.67381-1.16707-0.48672-2.64023 0.45744-3.60182l2.67687-2.72631-2.67687-2.7263c-0.94416-0.96159-1.13125-2.43475-0.45744-3.60182l4.23992-7.34375c0.67381-1.16708 2.04315-1.74163 3.34799-1.40476l3.6991 0.95499 1.02258-3.68129z m-1.28537 30.97853l0.00036 0.00132m4.93564-29.17692l-1.08194 3.89499c-0.43772 1.5758-2.05693 2.51065-3.64047 2.10182l-3.91384-1.01043-3.47982 6.02724 2.83225 2.88456c1.14582 1.16697 1.14582 3.03668 0 4.20365l-2.83226 2.88455 3.47983 6.02725 3.91385-1.01044c1.58355-0.40882 3.20275 0.52604 3.64047 2.10183l1.08193 3.89498 6.95966 0 1.082-3.89518c0.43772-1.5758 2.05694-2.51064 3.64047-2.10182l3.91461 1.01063 3.47982-6.02724-2.83225-2.88456c-1.14582-1.16698-1.14582-3.03668 0-4.20365l2.83225-2.88455-3.47982-6.02724-3.91461 1.01062c-1.58354 0.40882-3.20275-0.52603-3.64047-2.10182l-1.082-3.89519-6.95966 0z m3.47983 12c-2.20914 0-4 1.79086-3.99999 4 0 2.20914 1.79086 4 3.99999 4 2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4z m-8 4c0-4.41828 3.58172-8 8-8 4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8-4.41828 0-8-3.58172-8-8z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 11.5747652053833,
+                              "height": 11.666666030883789,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "C4WRb",
+                          "name": "text",
+                          "fill": "#4e5969ff",
+                          "content": "Tab 3",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lS7w3",
+              "name": "image",
+              "enabled": false,
+              "width": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "",
+                "mode": "fill"
+              },
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h9g5o",
+                  "name": "Aspect ratio keeper # Rotated Auto Layout",
+                  "rotation": 34.22999941595312,
+                  "width": "fill_container",
+                  "height": "fit_content(0.000020000001313746907)",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": {
+                      "type": "color",
+                      "color": "#ffffff66",
+                      "enabled": false
+                    }
+                  },
+                  "layout": "vertical"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hhHUK",
+              "name": "body",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "G445G",
+                  "name": "content",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uVeCf",
+                      "name": "layout-blocks/base",
+                      "clip": true,
+                      "width": "fill_container",
+                      "fill": "#e8f3ffff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#94bfffff"
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pNTrR",
+                          "name": "text",
+                          "fill": "#1d2129ff",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "ByteDance's core product, Toutiao (\"Headlines\"), is a content platform in China and around the world. Toutiao started out as a news recommendation engine and gradually evolved into a platform delivering content in various formats.",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AXbJy",
+                  "name": "footer",
+                  "enabled": false,
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "llYXY",
+                      "name": "avatar",
+                      "clip": true,
+                      "fill": "#e8f3ffff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#94bfffff"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LCtAk",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "8vWMu",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7Rx4C",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "stZr1",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UFQSH",
+                      "name": "actions",
+                      "clip": true,
+                      "fill": "#e8f3ffff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#94bfffff"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ysa8F",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mcpiP",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TSrfq",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "79keR",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lX3GS",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DHsMT",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EmulI",
+          "name": "简洁=false, 边框=false",
+          "reusable": true,
+          "clip": true,
+          "width": 360,
+          "fill": "#ffffffff",
+          "cornerRadius": 4,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HIPp6",
+              "name": "header",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#e5e6ebff"
+              },
+              "gap": 10,
+              "padding": [
+                11,
+                16
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FED9c",
+                  "name": "title",
+                  "clip": true,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 4,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VMcFb",
+                      "name": "text",
+                      "fill": "#1d2129ff",
+                      "content": "Arco Card",
+                      "lineHeight": 1.5,
+                      "textAlignVertical": "middle",
+                      "fontFamily": "PingFang SC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TNkM6",
+                      "name": "icon-wrapper",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 16,
+                      "height": "fill_container",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p3XPE",
+                          "name": "interactive-button/settings",
+                          "clip": true,
+                          "width": 16,
+                          "height": 16,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "wSemb",
+                              "x": 1.3333333730697632,
+                              "y": 1.3333333730697632,
+                              "name": "Vector",
+                              "geometry": "M4 20c0-8.83656 7.16344-16 16-16 8.83656 0 16 7.16344 16 16 0 8.83656-7.16344 16-16 16-8.83656 0-16-7.16344-16-16z m16-20c-11.0457 0-20 8.9543-20 20 0 11.0457 8.9543 20 20 20 11.0457 0 20-8.9543 20-20 0-11.0457-8.9543-20-20-20z m-3.39998 15.9786l0-0.46117c0.00241-0.54871 0.19864-1.1574 0.63648-1.61501 0.40438-0.42264 1.19256-0.90242 2.75202-0.90242 1.46442 0 2.48276 0.69917 3.00208 1.49296 0.5546 0.84769 0.44532 1.55896 0.18211 1.91431-0.32827 0.44318-0.73586 0.85252-1.22846 1.29596-0.14986 0.1349-0.33457 0.29564-0.53263 0.46799l-0.00005 0.00003c-0.35416 0.30819-0.75098 0.65349-1.06739 0.95457-1.12349 1.06902-2.34381 2.56102-2.34381 4.87418l0.00651 1.01285 3.99991-0.0257-0.00637-0.99262c0.00148-0.68407 0.28189-1.19145 1.10108-1.97092 0.27537-0.26202 0.52289-0.47616 0.80612-0.72119l0.00011-0.0001c0.20948-0.18123 0.43848-0.37935 0.71273-0.62623 0.57037-0.51345 1.20506-1.12998 1.76651-1.88795 1.51621-2.04693 1.16164-4.63452-0.04909-6.48511-1.246-1.9045-3.51303-3.30303-6.34936-3.30303-2.45448 0-4.3574 0.7943-5.6422 2.13712-1.25062 1.3071-1.74175 2.95402-1.7463 4.37019l0 0.47129 4 0z m1.40682 11.0214l0 4.00777 4 0 0-4.00777-4 0z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 13.333333969116211,
+                              "height": 13.333333969116211,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L149S",
+                      "name": "text/text",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 108,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "atSCX",
+                          "name": "text",
+                          "fill": "#ffffffff",
+                          "content": "This is a subtitle",
+                          "lineHeight": 1.5714285714285714,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Roboto",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EDSxM",
+                  "name": "Link",
+                  "clip": true,
+                  "height": 24,
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 4,
+                  "padding": [
+                    1,
+                    4
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FXbvJ",
+                      "name": "edit/link",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 12,
+                      "height": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "0IJCM",
+                          "x": 0.5199225544929504,
+                          "y": 8.651650428771973,
+                          "name": "Vector",
+                          "rotation": 45,
+                          "geometry": "M8 4c-2.20914 0-4 1.79086-4 4 0 2.20914 1.79086 4 4 4l12 0c2.20914 0 4-1.79086 4-4l4 0c0 4.41828-3.58172 8-8 8l-12 0c-4.41828 0-8-3.58172-8-8 0-4.41828 3.58172-8 8-8l7 0 0 4-7 0z m10 4c0-4.41828 3.58172-8 8-8l12 0c4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8l-7 0 0-4 7 0c2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4l-12 0c-2.20914 0-4 1.79086-4 4l-4 0z",
+                          "fillRule": "evenodd",
+                          "fill": "#ffffffff",
+                          "width": 11.5,
+                          "height": 4,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HtUlI",
+                      "name": "Link",
+                      "fill": "#165dffff",
+                      "content": "More",
+                      "lineHeight": 1.5714285714285714,
+                      "fontFamily": "PingFang SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xx3kF",
+                      "name": "direction/down",
+                      "enabled": false,
+                      "clip": true,
+                      "width": 12,
+                      "height": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "cmWLX",
+                          "x": 10.2535400390625,
+                          "y": 4.714454174041748,
+                          "name": "Vector",
+                          "rotation": -44.99999517032684,
+                          "flipX": true,
+                          "geometry": "M0 0l4 0 0 20 20 0 0 4-21.99982 0c0 0-0.00018 0-0.00018-2l0.00018 2-2.00018 0 0-24z",
+                          "fillRule": "evenodd",
+                          "fill": "#4e5969ff",
+                          "width": 5.999999523162842,
+                          "height": 5.999999523162842,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 4
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ofODM",
+              "name": "tabs/line",
+              "enabled": false,
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#e5e6ebff"
+              },
+              "gap": 32,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uEpT0",
+                  "name": "tabs group",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JIyth",
+                      "name": "_components/tab",
+                      "clip": true,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 2
+                        },
+                        "fill": "#165dffff"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        9,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "h7fQ5",
+                          "name": "interactive-button/settings",
+                          "enabled": false,
+                          "clip": true,
+                          "width": 14,
+                          "height": 14,
+                          "fill": {
+                            "type": "color",
+                            "color": "#ffffffff",
+                            "enabled": false
+                          },
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "qaIiI",
+                              "x": 1.212736964225769,
+                              "y": 1.1666666269302368,
+                              "name": "Vector",
+                              "geometry": "M12.71158 2.19707c0.36068-1.29846 1.54293-2.19707 2.89055-2.19707l8.47983 0c1.34762 0 2.52987 0.89861 2.89055 2.19707l1.02264 3.68149 3.69986-0.95519c1.30484-0.33687 2.67418 0.23768 3.34799 1.40476l4.23992 7.34375c0.67381 1.16708 0.48671 2.64024-0.45745 3.60183l-2.67686 2.72629 2.67687 2.72631c0.94416 0.96159 1.13125 2.43475 0.45744 3.60182l-4.23991 7.34375c-0.67381 1.16708-2.04315 1.74163-3.348 1.40476l-3.69986-0.95519-1.02264 3.68148c-0.36068 1.29846-1.54293 2.19707-2.89055 2.19707l-8.47983 0c-1.34763 0-2.52987-0.89861-2.89055-2.19707l-1.02258-3.68128-3.6991 0.95499c-1.30484 0.33687-2.67418-0.23768-3.348-1.40476l-4.23991-7.34375c-0.67381-1.16707-0.48672-2.64023 0.45744-3.60182l2.67687-2.72631-2.67687-2.7263c-0.94416-0.96159-1.13125-2.43475-0.45744-3.60182l4.23992-7.34375c0.67381-1.16708 2.04315-1.74163 3.34799-1.40476l3.6991 0.95499 1.02258-3.68129z m-1.28537 30.97853l0.00036 0.00132m4.93564-29.17692l-1.08194 3.89499c-0.43772 1.5758-2.05693 2.51065-3.64047 2.10182l-3.91384-1.01043-3.47982 6.02724 2.83225 2.88456c1.14582 1.16697 1.14582 3.03668 0 4.20365l-2.83226 2.88455 3.47983 6.02725 3.91385-1.01044c1.58355-0.40882 3.20275 0.52604 3.64047 2.10183l1.08193 3.89498 6.95966 0 1.082-3.89518c0.43772-1.5758 2.05694-2.51064 3.64047-2.10182l3.91461 1.01063 3.47982-6.02724-2.83225-2.88456c-1.14582-1.16698-1.14582-3.03668 0-4.20365l2.83225-2.88455-3.47982-6.02724-3.91461 1.01062c-1.58354 0.40882-3.20275-0.52603-3.64047-2.10182l-1.082-3.89519-6.95966 0z m3.47983 12c-2.20914 0-4 1.79086-3.99999 4 0 2.20914 1.79086 4 3.99999 4 2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4z m-8 4c0-4.41828 3.58172-8 8-8 4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8-4.41828 0-8-3.58172-8-8z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 11.5747652053833,
+                              "height": 11.666666030883789,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "e4BVf",
+                          "name": "text",
+                          "fill": "#165dffff",
+                          "content": "Tab 1",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YgDgK",
+                      "name": "_components/tab",
+                      "cornerRadius": 2,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 8,
+                      "padding": [
+                        9,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "4P2yA",
+                          "name": "Hover",
+                          "fill": "#f2f3f500",
+                          "width": 53.99999237060547,
+                          "height": 24,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ACYgD",
+                          "name": "interactive-button/settings",
+                          "enabled": false,
+                          "clip": true,
+                          "width": 14,
+                          "height": 14,
+                          "fill": {
+                            "type": "color",
+                            "color": "#ffffffff",
+                            "enabled": false
+                          },
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "h6lw4",
+                              "x": 1.212736964225769,
+                              "y": 1.1666666269302368,
+                              "name": "Vector",
+                              "geometry": "M12.71158 2.19707c0.36068-1.29846 1.54293-2.19707 2.89055-2.19707l8.47983 0c1.34762 0 2.52987 0.89861 2.89055 2.19707l1.02264 3.68149 3.69986-0.95519c1.30484-0.33687 2.67418 0.23768 3.34799 1.40476l4.23992 7.34375c0.67381 1.16708 0.48671 2.64024-0.45745 3.60183l-2.67686 2.72629 2.67687 2.72631c0.94416 0.96159 1.13125 2.43475 0.45744 3.60182l-4.23991 7.34375c-0.67381 1.16708-2.04315 1.74163-3.348 1.40476l-3.69986-0.95519-1.02264 3.68148c-0.36068 1.29846-1.54293 2.19707-2.89055 2.19707l-8.47983 0c-1.34763 0-2.52987-0.89861-2.89055-2.19707l-1.02258-3.68128-3.6991 0.95499c-1.30484 0.33687-2.67418-0.23768-3.348-1.40476l-4.23991-7.34375c-0.67381-1.16707-0.48672-2.64023 0.45744-3.60182l2.67687-2.72631-2.67687-2.7263c-0.94416-0.96159-1.13125-2.43475-0.45744-3.60182l4.23992-7.34375c0.67381-1.16708 2.04315-1.74163 3.34799-1.40476l3.6991 0.95499 1.02258-3.68129z m-1.28537 30.97853l0.00036 0.00132m4.93564-29.17692l-1.08194 3.89499c-0.43772 1.5758-2.05693 2.51065-3.64047 2.10182l-3.91384-1.01043-3.47982 6.02724 2.83225 2.88456c1.14582 1.16697 1.14582 3.03668 0 4.20365l-2.83226 2.88455 3.47983 6.02725 3.91385-1.01044c1.58355-0.40882 3.20275 0.52604 3.64047 2.10183l1.08193 3.89498 6.95966 0 1.082-3.89518c0.43772-1.5758 2.05694-2.51064 3.64047-2.10182l3.91461 1.01063 3.47982-6.02724-2.83225-2.88456c-1.14582-1.16698-1.14582-3.03668 0-4.20365l2.83225-2.88455-3.47982-6.02724-3.91461 1.01062c-1.58354 0.40882-3.20275-0.52603-3.64047-2.10182l-1.082-3.89519-6.95966 0z m3.47983 12c-2.20914 0-4 1.79086-3.99999 4 0 2.20914 1.79086 4 3.99999 4 2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4z m-8 4c0-4.41828 3.58172-8 8-8 4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8-4.41828 0-8-3.58172-8-8z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 11.5747652053833,
+                              "height": 11.666666030883789,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "xQPqp",
+                          "name": "text",
+                          "fill": "#4e5969ff",
+                          "content": "Tab 2",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AjiAm",
+                      "name": "_components/tab",
+                      "cornerRadius": 2,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 8,
+                      "padding": [
+                        9,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "XzEBg",
+                          "name": "Hover",
+                          "fill": "#f2f3f500",
+                          "width": 53.99999237060547,
+                          "height": 24,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s52z9",
+                          "name": "interactive-button/settings",
+                          "enabled": false,
+                          "clip": true,
+                          "width": 14,
+                          "height": 14,
+                          "fill": {
+                            "type": "color",
+                            "color": "#ffffffff",
+                            "enabled": false
+                          },
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "Ammkp",
+                              "x": 1.212736964225769,
+                              "y": 1.1666666269302368,
+                              "name": "Vector",
+                              "geometry": "M12.71158 2.19707c0.36068-1.29846 1.54293-2.19707 2.89055-2.19707l8.47983 0c1.34762 0 2.52987 0.89861 2.89055 2.19707l1.02264 3.68149 3.69986-0.95519c1.30484-0.33687 2.67418 0.23768 3.34799 1.40476l4.23992 7.34375c0.67381 1.16708 0.48671 2.64024-0.45745 3.60183l-2.67686 2.72629 2.67687 2.72631c0.94416 0.96159 1.13125 2.43475 0.45744 3.60182l-4.23991 7.34375c-0.67381 1.16708-2.04315 1.74163-3.348 1.40476l-3.69986-0.95519-1.02264 3.68148c-0.36068 1.29846-1.54293 2.19707-2.89055 2.19707l-8.47983 0c-1.34763 0-2.52987-0.89861-2.89055-2.19707l-1.02258-3.68128-3.6991 0.95499c-1.30484 0.33687-2.67418-0.23768-3.348-1.40476l-4.23991-7.34375c-0.67381-1.16707-0.48672-2.64023 0.45744-3.60182l2.67687-2.72631-2.67687-2.7263c-0.94416-0.96159-1.13125-2.43475-0.45744-3.60182l4.23992-7.34375c0.67381-1.16708 2.04315-1.74163 3.34799-1.40476l3.6991 0.95499 1.02258-3.68129z m-1.28537 30.97853l0.00036 0.00132m4.93564-29.17692l-1.08194 3.89499c-0.43772 1.5758-2.05693 2.51065-3.64047 2.10182l-3.91384-1.01043-3.47982 6.02724 2.83225 2.88456c1.14582 1.16697 1.14582 3.03668 0 4.20365l-2.83226 2.88455 3.47983 6.02725 3.91385-1.01044c1.58355-0.40882 3.20275 0.52604 3.64047 2.10183l1.08193 3.89498 6.95966 0 1.082-3.89518c0.43772-1.5758 2.05694-2.51064 3.64047-2.10182l3.91461 1.01063 3.47982-6.02724-2.83225-2.88456c-1.14582-1.16698-1.14582-3.03668 0-4.20365l2.83225-2.88455-3.47982-6.02724-3.91461 1.01062c-1.58354 0.40882-3.20275-0.52603-3.64047-2.10182l-1.082-3.89519-6.95966 0z m3.47983 12c-2.20914 0-4 1.79086-3.99999 4 0 2.20914 1.79086 4 3.99999 4 2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4z m-8 4c0-4.41828 3.58172-8 8-8 4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8-4.41828 0-8-3.58172-8-8z",
+                              "fillRule": "evenodd",
+                              "fill": "#ffffffff",
+                              "width": 11.5747652053833,
+                              "height": 11.666666030883789,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 4
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rF7ii",
+                          "name": "text",
+                          "fill": "#4e5969ff",
+                          "content": "Tab 3",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZbJZQ",
+              "name": "image",
+              "enabled": false,
+              "width": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "",
+                "mode": "fill"
+              },
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6lCGG",
+                  "name": "Aspect ratio keeper # Rotated Auto Layout",
+                  "rotation": 34.22999941595312,
+                  "width": "fill_container",
+                  "height": "fit_content(0.000020000001313746907)",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": {
+                      "type": "color",
+                      "color": "#ffffff66",
+                      "enabled": false
+                    }
+                  },
+                  "layout": "vertical"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DXgXH",
+              "name": "body",
+              "clip": true,
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Fdc26",
+                  "name": "content",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fuPHh",
+                      "name": "layout-blocks/base",
+                      "clip": true,
+                      "width": "fill_container",
+                      "fill": "#e8f3ffff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#94bfffff"
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wsCWE",
+                          "name": "text",
+                          "fill": "#1d2129ff",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "ByteDance's core product, Toutiao (\"Headlines\"), is a content platform in China and around the world. Toutiao started out as a news recommendation engine and gradually evolved into a platform delivering content in various formats.",
+                          "lineHeight": 1.5714285714285714,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bf5fk",
+                  "name": "footer",
+                  "enabled": false,
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kAMDM",
+                      "name": "avatar",
+                      "clip": true,
+                      "fill": "#e8f3ffff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#94bfffff"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ldxRq",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "W0n94",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fWtvn",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Zerix",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZKGjO",
+                      "name": "actions",
+                      "clip": true,
+                      "fill": "#e8f3ffff",
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#94bfffff"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nOsq1",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IUCCd",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fgSLC",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zhwkZ",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e7egg",
+                          "name": "layout-blocks/base",
+                          "clip": true,
+                          "fill": "#e8f3ffff",
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1,
+                            "fill": "#94bfffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sTnR4",
+                              "name": "label",
+                              "fill": "#165dffff",
+                              "textGrowth": "fixed-width-height",
+                              "width": 32,
+                              "height": 32,
+                              "content": "◇    交换",
+                              "lineHeight": 1,
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kp2lt",
+          "name": "简洁=true, 边框=true",
+          "reusable": true,
+          "clip": true,
+          "width": 360,
+          "fill": "#ffffffff",
+          "cornerRadius": 4,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#e5e6ebff"
+          },
+          "padding": 16,
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "9vYL3",
+              "name": "avatar",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LRdu4",
+                  "name": "layout-blocks/base",
+                  "clip": true,
+                  "fill": "#e8f3ffff",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#94bfffff"
+                  },
+                  "layout": "vertical",
+                  "padding": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BjKXI",
+                      "name": "B",
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width-height",
+                      "width": 24,
+                      "height": 24,
+                      "content": "B",
+                      "lineHeight": 1,
+                      "textAlign": "center",
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Nunito Sans",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8dQBg",
+                  "name": "layout-blocks/base",
+                  "clip": true,
+                  "fill": "#e8f3ffff",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#94bfffff"
+                  },
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3JP3K",
+                      "name": "text",
+                      "fill": "#1d2129ff",
+                      "content": "Username",
+                      "lineHeight": 1.5714285714285714,
+                      "fontFamily": "PingFang SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "par4w",
+              "name": "actions",
+              "clip": true,
+              "cornerRadius": 2,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 12,
+              "padding": [
+                1,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Paeh6",
+                  "name": "edit/link",
+                  "enabled": false,
+                  "clip": true,
+                  "width": 12,
+                  "height": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "Jstpx",
+                      "x": 0.5199225544929504,
+                      "y": 8.651650428771973,
+                      "name": "Vector",
+                      "rotation": 45,
+                      "geometry": "M8 4c-2.20914 0-4 1.79086-4 4 0 2.20914 1.79086 4 4 4l12 0c2.20914 0 4-1.79086 4-4l4 0c0 4.41828-3.58172 8-8 8l-12 0c-4.41828 0-8-3.58172-8-8 0-4.41828 3.58172-8 8-8l7 0 0 4-7 0z m10 4c0-4.41828 3.58172-8 8-8l12 0c4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8l-7 0 0-4 7 0c2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4l-12 0c-2.20914 0-4 1.79086-4 4l-4 0z",
+                      "fillRule": "evenodd",
+                      "fill": "#ffffffff",
+                      "width": 11.5,
+                      "height": 4,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "zXL2j",
+                  "name": "Link",
+                  "fill": "#165dffff",
+                  "content": "More",
+                  "lineHeight": 1.5714285714285714,
+                  "fontFamily": "PingFang SC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "WtAc6",
+                  "name": "direction/down",
+                  "enabled": false,
+                  "clip": true,
+                  "width": 12,
+                  "height": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "ts5PH",
+                      "x": 10.2535400390625,
+                      "y": 4.714454174041748,
+                      "name": "Vector",
+                      "rotation": -44.99999517032684,
+                      "flipX": true,
+                      "geometry": "M0 0l4 0 0 20 20 0 0 4-21.99982 0c0 0-0.00018 0-0.00018-2l0.00018 2-2.00018 0 0-24z",
+                      "fillRule": "evenodd",
+                      "fill": "#4e5969ff",
+                      "width": 5.999999523162842,
+                      "height": 5.999999523162842,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aFQq7",
+          "name": "简洁=true, 边框=false",
+          "reusable": true,
+          "clip": true,
+          "width": 360,
+          "fill": "#ffffffff",
+          "cornerRadius": 4,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "padding": 16,
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ycqI7",
+              "name": "avatar",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OOY2s",
+                  "name": "layout-blocks/base",
+                  "clip": true,
+                  "fill": "#e8f3ffff",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#94bfffff"
+                  },
+                  "layout": "vertical",
+                  "padding": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Id8vt",
+                      "name": "B",
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width-height",
+                      "width": 24,
+                      "height": 24,
+                      "content": "B",
+                      "lineHeight": 1,
+                      "textAlign": "center",
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Nunito Sans",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ijDxk",
+                  "name": "layout-blocks/base",
+                  "clip": true,
+                  "fill": "#e8f3ffff",
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#94bfffff"
+                  },
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SBsUU",
+                      "name": "text",
+                      "fill": "#1d2129ff",
+                      "content": "Username",
+                      "lineHeight": 1.5714285714285714,
+                      "fontFamily": "PingFang SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WbX0d",
+              "name": "actions",
+              "clip": true,
+              "cornerRadius": 2,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 12,
+              "padding": [
+                1,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vYx8m",
+                  "name": "edit/link",
+                  "enabled": false,
+                  "clip": true,
+                  "width": 12,
+                  "height": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "FebEW",
+                      "x": 0.5199225544929504,
+                      "y": 8.651650428771973,
+                      "name": "Vector",
+                      "rotation": 45,
+                      "geometry": "M8 4c-2.20914 0-4 1.79086-4 4 0 2.20914 1.79086 4 4 4l12 0c2.20914 0 4-1.79086 4-4l4 0c0 4.41828-3.58172 8-8 8l-12 0c-4.41828 0-8-3.58172-8-8 0-4.41828 3.58172-8 8-8l7 0 0 4-7 0z m10 4c0-4.41828 3.58172-8 8-8l12 0c4.41828 0 8 3.58172 8 8 0 4.41828-3.58172 8-8 8l-7 0 0-4 7 0c2.20914 0 4-1.79086 4-4 0-2.20914-1.79086-4-4-4l-12 0c-2.20914 0-4 1.79086-4 4l-4 0z",
+                      "fillRule": "evenodd",
+                      "fill": "#ffffffff",
+                      "width": 11.5,
+                      "height": 4,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ac1LL",
+                  "name": "Link",
+                  "fill": "#165dffff",
+                  "content": "More",
+                  "lineHeight": 1.5714285714285714,
+                  "fontFamily": "PingFang SC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "GywLd",
+                  "name": "direction/down",
+                  "enabled": false,
+                  "clip": true,
+                  "width": 12,
+                  "height": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "jPQcK",
+                      "x": 10.2535400390625,
+                      "y": 4.714454174041748,
+                      "name": "Vector",
+                      "rotation": -44.99999517032684,
+                      "flipX": true,
+                      "geometry": "M0 0l4 0 0 20 20 0 0 4-21.99982 0c0 0-0.00018 0-0.00018-2l0.00018 2-2.00018 0 0-24z",
+                      "fillRule": "evenodd",
+                      "fill": "#4e5969ff",
+                      "width": 5.999999523162842,
+                      "height": 5.999999523162842,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
